@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Registration Form</title>
+  
+  <!-- Inline CSS styling for layout and design -->
+  <style>
+    /* Overall page layout */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Registration form container */
+    form {
+      background-color: #ffffff;
+      padding: 25px 30px;
+      border-radius: 10px;
+      width: 400px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Heading style */
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    /* Label style */
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    /* Input and textarea fields */
+    input, textarea {
+      width: 100%;
+      padding: 8px 10px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    /* Button container */
+    .buttons {
+      margin-top: 25px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* Submit and Cancel buttons */
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .submit-btn {
+      background-color: #28a745; /* Green */
+      color: white;
+    }
+
+    .cancel-btn {
+      background-color: #dc3545; /* Red */
+      color: white;
+    }
+
+    /* Optional: Add hover effect for buttons */
+    button:hover {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Registration Form -->
+  <form>
+    <h2>User Registration</h2>
+
+    <!-- Username field -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <!-- Email field -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <!-- Password field -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <!-- Birthdate picker -->
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" id="birthdate" name="birthdate" required>
+
+    <!-- Address textarea -->
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="4" required></textarea>
+
+    <!-- Phone number field (10 digits only) -->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="e.g. 9876543210">
+
+    <!-- Action buttons -->
+    <div class="buttons">
+      <button type="submit" class="submit-btn">Submit</button>
+      <button type="reset" class="cancel-btn">Cancel</button>
+    </div>
+  </form>
+
+</body>
+</html>
