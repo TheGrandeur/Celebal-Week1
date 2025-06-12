@@ -21,14 +21,6 @@ A simple and responsive user registration form built with **HTML5** and **CSS3**
 
 ---
 
-## File Structure
-/user-registration-form/
-│
-├── index.html       # Main HTML form with inline CSS and comments
-├── README.md        # Project documentation (this file)
-
----
-
 ## Form Preview
 
 > A centered registration card with a clean design.  
