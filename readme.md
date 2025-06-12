@@ -45,3 +45,5 @@ A simple and responsive user registration form built with **HTML5** and **CSS3**
 
 ---
 
+<img width="1427" alt="image" src="https://github.com/user-attachments/assets/b8814134-a959-4b2e-8a38-979f89ca603f" />
+
